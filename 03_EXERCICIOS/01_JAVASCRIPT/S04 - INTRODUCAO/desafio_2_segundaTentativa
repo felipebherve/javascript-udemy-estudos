@@ -1,0 +1,10 @@
+// Calcular a área da circunferência
+// pi * r * r
+// raio 10
+// pi = 3,14
+const AreaCircunf = function(raio){
+    console.log("A área da circunferência para o raio r= "+raio+" será de: "+(Math.PI*raio*raio)+"m2")
+}
+
+AreaCircunf(10);
+AreaCircunf(12.5);

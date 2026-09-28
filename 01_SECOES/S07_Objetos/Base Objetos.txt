@@ -1,0 +1,60 @@
+classe > Objeto > atributos
+carro > Ferrari > banco de couro
+felino > bob > miado crocante
+
+métodos de acesso
+getters > pegadores
+setters > definidores
+get > ver
+
+ex.
+getSaldo()
+setSaldo(novo valor) - segurança if
+
+void setSaldo(double valor) {//setter 'filtro da realidade'
+if(valor > 0) {
+this.saldo = valor; // pode passar
+} else {
+system.out.println("ERRO: Você não pode depositar um valor negativo")
+}
+}
+
+abstração e encapsulamento andam juntos
+abstração = botão
+encapsulamento = cofre
+public = publico / private = privado / protected = protegido
+classe = corpo humano > objeto = coração > atributos = bater / correr
+coração = private
+corpo humano = public
+correr = método publico
+bater = método privated
+bater.parar = método protected
+
+herança
+
+super classe pai
+ex. animal
+classe filho (extends)
+gato / cachorro / vaca
+
+classe cachorro extends animal
+
+teste do "é um"
+cachorro é um animal? sim
+gato é um animal? sim
+gato é um whiskas? não.
+
+classe animal é genérica
+
+criar base sólida e ir adicionando detalhes
+
+protected = quem é de fora não pode ver, mas quem é filho pode.
+
+animal faz som
+cachorro faz au au
+(@override)
+@override void emitirSom print "au au"
+(inicio do polimorfismo)
+
+classe pai forte
+classe filho especialista

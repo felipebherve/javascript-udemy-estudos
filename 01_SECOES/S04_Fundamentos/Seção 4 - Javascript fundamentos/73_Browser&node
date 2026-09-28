@@ -1,0 +1,18 @@
+let a = 3
+console.log('this.a:  ', this.a)
+console.log('global.a:  ', global.a)
+
+global.b = 123
+console.log('global.b:  ', global.b)
+
+this.c = 456
+console.log('this.c:  ', this.c)
+console.log('module.exports.c:  ', module.exports.c)
+console.log('module.exports === this:  ', module.exports === this)
+console.log('module.exports:  ', module.exports)
+
+//criando uma variavel maluca: sem var e let!
+abc = 3 // não faça isso
+console.log('abc:  ', abc)
+
+// module.exports = {e: 456,f: false, g: 'teste' }

@@ -1,0 +1,26 @@
+const escola = "Cod3r"
+
+console.log(escola.charAt(4))
+console.log(escola.charAt(5)) 
+// retorna valor vazio sem erro
+
+console.log(escola.charCodeAt(3))
+//gera o codigo na tabela de códigos, UNICODE
+
+console.log(escola.indexOf('3'))
+//busca onde está o simbolo 3
+
+console.log(escola.substring(1))
+console.log(escola.substring(0 , 3))
+//coloca tudo que tiver na frente da primeira posição
+
+console.log('Escola '.concat(escola).concat('!'))
+//concatena os termos
+
+console.log(escola.replace(3, 'e'))
+console.log(escola.replace(/\d/, 'e')) // regets
+console.log(escola.replace(/\w/, 'e')) 
+console.log(escola.replace(/\w/g, 'e')) 
+
+console.log('ana,maria,pedro'.split(','))
+//cria um array
