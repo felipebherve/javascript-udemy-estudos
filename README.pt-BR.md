@@ -2,6 +2,8 @@
 
 🇧🇷 Português · 🇺🇸 [English](README.md)
 
+🔗 **Portfólio:** este e os meus outros projetos em [felipebherve.github.io](https://felipebherve.github.io/#projects).
+
 ## Em que momento eu fiz isto
 
 Entre **fevereiro e março de 2026** fiz um curso online de JavaScript na Udemy. Eu já tinha mexido em HTML e CSS por conta própria (veja [html-css-js-estudos](https://github.com/felipebherve/html-css-js-estudos)); este curso foi onde aprendi JavaScript de verdade, seção por seção.
