@@ -2,6 +2,8 @@
 
 🇺🇸 English · 🇧🇷 [Português](README.pt-BR.md)
 
+🔗 **Portfolio:** this project and my others at [felipebherve.github.io](https://felipebherve.github.io/#projects).
+
 ## Where I was when I made this
 
 Between **February and March 2026** I went through an online JavaScript course on Udemy. I had already touched HTML and CSS on my own (see [html-css-js-estudos](https://github.com/felipebherve/html-css-js-estudos)); this course was where I learned JavaScript properly, section by section.
